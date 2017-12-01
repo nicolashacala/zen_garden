@@ -62,3 +62,44 @@ img {
     height: auto;
     border: 0;
 }
+
+body{
+    background-image: url("bckgrnd.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+h1, h2, h3{
+    font-family: 'Lobster', cursive;
+}
+header h1{
+    color: #FFFFFF;
+    font-size: 4em;
+    margin-bottom: 15px;
+    text-shadow: 5px 5px 5px black;
+}
+.page-wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.intro{
+    background-color: #21a0ce;
+    width: 50%;
+    height: 600px;
+    border-radius: 50%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.summary{
+    width: 80%;
+}
+.preamble{
+    width: 80%;
+}
